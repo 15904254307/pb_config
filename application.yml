@@ -1,0 +1,14 @@
+server:
+  port: 9006
+  
+spring:
+  profiles: dev
+  application:
+    name: diunaer-test
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8091/eureka/
+
+   
